@@ -1,0 +1,298 @@
+/*
+
+Colors:
+$superfadedblue: #d7e7fc;
+$fadedblue: #95c0fa;
+$lightblue: #7babec;
+$neonblue: #3386f7;
+
+$tpblue: #1d4d8f;
+$navy: #163764;
+$midnight: #172538;
+new - $riverblue: #3ac3ec;
+new - $oceanblue: #1f87d6;
+new - thickblue: #1d308f;
+
+$red: #f62929;
+
+$superfadedgray: #eaeaeb;
+$fadedgray: #cecfd1;
+$lightgray: #8a8c8e;
+$gray: #616264;
+$darkgray: #4a4b4c;
+$fadinggray: #f9f9f9;
+new $dashgray: #f5f5f7;
+*/
+
+
+/*++++++++++++++ 1. Base styles +++++++++++++++++ */
+
+body {
+  font-family: 'Assistant', sans-serif;
+}
+
+.font-georgia { 
+	font-family: Georgia,Times,Times New Roman,serif !important; 
+}
+
+
+.bg-superfadedblue {
+  background-color: #d7e7fc !important;
+}
+
+.bg-fadedblue {
+  background-color: #95c0fa !important;
+}
+
+.bg-lightblue {
+  background-color: #7babec!important;
+}
+
+.bg-neonblue {
+  background-color: #3386f7 !important;
+}
+
+.bg-tpblue {
+  background-color: #1d4d8f !important;
+}
+
+.bg-navy {
+  background-color: #163764 !important;
+}
+
+.bg-midnight {
+  background-color: #172538 !important;
+}
+
+.bg-red {
+  background-color: #f62929 !important;
+}
+
+.bg-superfadedgray {
+  background-color: #eaeaeb !important;
+}
+
+.bg-fadedgray {
+  background-color: #cecfd1 !important;
+}
+
+.bg-lightgray {
+  background-color: #8a8c8e !important;
+}
+
+.bg-gray {
+  background-color: #616264 !important;
+}
+
+.bg-darkgray {
+  background-color: #4a4b4c !important;
+}
+
+.bg-fadinggray{
+  background-color:  #f9f9f9 !important;
+}
+
+.bg-dashgray{
+  background-color:  #f5f5f7 !important;
+}
+
+.bg-thickblue{
+  background-color:  #1d308f !important;
+}
+
+
+
+.text-superfadedblue {
+  color: #d7e7fc !important;
+}
+
+.text-fadedblue {
+  color: #95c0fa !important;
+}
+.text-lightblue {
+  color: #7babec !important;
+}
+
+.text-neonblue {
+  color: #3386f7!important;
+}
+
+.text-tpblue {
+  color: #1d4d8f !important;
+}
+
+.text-navy, .border-navy {
+  color: #163764 !important;
+}
+
+.text-midnight {
+  color: #172538 !important;
+}
+
+.text-red {
+  color: #f62929 !important;
+}
+
+.text-fadedgray {
+  color: #cecfd1 !important;
+}
+
+.text-superfadedgray {
+  color: #eaeaeb !important;
+}
+
+
+.text-lightgray {
+  color: #8a8c8e !important;
+}
+
+.text-gray {
+  color: #616264 !important;
+}
+
+.text-darkgray {
+  color: #4a4b4c !important;
+}
+
+.text-superfadedblue {
+  color: #3386f7 !important;
+}
+
+.text-fadedblue {
+  color: #7babec !important;
+}
+.text-riverblue {
+  color: #3ac3ec !important;
+}
+
+.text-oceanblue{
+  color: #1f87d6 !important;
+}
+
+
+.border-navy {
+  border-top: 1px solid #163764;
+}
+
+.btn-outline-navy{
+  background-color: transparent;
+  border:1px solid #3386f7;
+  color:#3386f7;
+}
+
+.btn-outline-navy:hover{
+  background-color: #3386f7;
+  border:1px solid #3386f7;
+  color:white;
+}
+
+.btn-outline-white{
+  background-color: transparent;
+  border:1px solid #fff;
+  color:#fff;
+}
+
+.btn-outline-white:hover{
+  background-color: #fff;
+  border:1px solid #3386f7;
+  color:#3386f7;
+}
+
+.btn-regular{
+  background-color: #3386f7;
+  border:1px solid #3386f7;
+  color:white;
+}
+
+.btn-regular:hover{
+  background-color: white;
+  border:1px solid #3386f7;
+  color:#3386f7;
+}
+
+
+.cover-tear-single{
+  position: relative;
+  min-height: 25px;
+  background: url('../img/tear-single.png') repeat-x scroll 0px 100%;
+}
+
+.cover-tear-single-reverse{
+  position: relative;
+  min-height: 25px;
+  background: url('../img/tear-single-reverse.png') repeat-x scroll 0px 100%;
+}
+
+ 
+.logo-container{
+  height: 100px;
+  display: flex;
+  align-items:center;
+}
+
+.img-reduce{
+  width:60%;
+    }
+
+    .triangle-up {
+      width: 0;
+      height: 0;
+      border-left: 10rem solid transparent;
+      border-right: 10rem solid transparent;
+      border-bottom: 3rem solid #1d308f;
+    }
+/* for screens larger than 992px*/
+    @media (min-width: 992px) {
+
+      .cover-fractal1{
+        position: relative;
+        min-height: 100%;
+        background: url("../img/icons/fractal5.png") no-repeat scroll 15% 5%;
+      }
+      
+      .cover-fractal2{
+        position: relative;
+        min-height: 100%;
+        background: url("../img/icons/fractal6.png") no-repeat scroll 86% 65%;
+      }
+      
+      .cover-fractal6{
+        position: relative;
+        min-height: 100%;
+        background: url("../img/icons/fractal6.png") no-repeat scroll 80% 65%;
+      }
+
+     }
+
+/* for screens larger  than 768px*/
+@media (min-width: 768px) { 
+  .logo-container{
+    height: 120px;
+  }
+
+  .img-reduce{
+    width:auto;
+      }
+
+      .triangle-up {
+        width: 0;
+        height: 0;
+        border-left: 25rem solid transparent;
+        border-right: 25rem solid transparent;
+        border-bottom: 4rem solid #1d308f;
+      }
+      .subnav-border{
+        border:none !important;
+      }
+ }
+
+/*fa ul list fix*/
+.fa-ul{
+  margin-left: 1.5em !important;
+}
+
+.subnav-border{
+  border-top:1px solid #3386f7;
+  border-left:1px solid #3386f7;
+  border-right:1px solid #3386f7;
+}
